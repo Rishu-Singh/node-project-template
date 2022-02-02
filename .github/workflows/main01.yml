@@ -17,3 +17,6 @@ jobs:
 
       - name: Another greeting
         run: echo "Hello, world!"
+        
+      - name: test
+        run: npm test
