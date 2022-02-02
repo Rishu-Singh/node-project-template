@@ -20,3 +20,10 @@ jobs:
         
       - name: test
         run: npm test
+        
+      - name: upload build artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: my-artifact
+          path: path/to/artifact
+          if-no-files-found: error
