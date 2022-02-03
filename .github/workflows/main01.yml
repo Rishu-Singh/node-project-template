@@ -20,4 +20,4 @@ jobs:
         with:
           name: my-artifact
           path: path/to/artifact.txt
-          if-no-files-found: error
+      
